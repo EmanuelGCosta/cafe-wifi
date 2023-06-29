@@ -5,7 +5,14 @@
 </p>
 
 # Descrição do Projeto
->A intenção desse projeto é me aprofundar e desenvolver em Flask, framework web em Python, com bastante foco em formulário. O projeto tem como objetivo usuários adicionarem e visualizarem informações sobre cafeterias, como nome, localização, horários de funcionamento e classificações para café, Wi-Fi e disponibilidade de tomadas.
+>A intenção desse projeto é me aprofundar e desenvolver em Flask, framework web em Python, com bastante foco em formulário. O projeto tem como objetivo usuários adicionarem e visualizarem informações sobre cafeterias, como nome, localização, horários de funcionamento e classificações para café, Wi-Fi e disponibilidade de tomadas. Os dados ficam salvos em um arquivo CSV.
+
+<br/>
+
+<h3 align="center">Vídeo exemplo da usabilidade do site: </h3>
+
+
+https://github.com/EmanuelGCosta/cafe-wifi/assets/99223358/117580b4-b2d8-4754-bfd7-0c098d279c94
 
 
 ## Tecnologias
