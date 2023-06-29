@@ -1,0 +1,27 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+{% endblock %}
+
+{% block title %}Adicionar uma nova cafeteria{% endblock %}
+
+{% block content %}
+
+<h1 style="margin-left: 88px">Adicionar uma nova cafeteria na base de dados</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+
+            {{ wtf.quick_form(form, novalidate=True) }}
+
+            <p class="space-above"><a onclick="window.location.href='/cafes';">ver todas as cafeterias</a></p>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

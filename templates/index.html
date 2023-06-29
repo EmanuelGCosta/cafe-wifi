@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+    {{super()}}
+    <link rel="stylesheet"
+          href="{{url_for('.static', filename='css/styles.css')}}">
+{% endblock %}
+
+{% block title %}Café & Wi-fi{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-4">☕️ Café & Wi-fi 💻</h1>
+        <p class="lead">Precisa de uma cafeteria com tomadas e wifi?</p>
+        <hr class="my-4">
+        <p>Aqui você pode apreciar uma coleção de cafeterias avaliadas em disponibilidade de tomadas, velocidade do wifi e qualidade do café.</p>
+        <a class="btn btn-warning btn-lg" onclick="window.location.href='/cafes';" role="button">Mostrar</a>
+    </div>
+</div>
+
+{% endblock %}
