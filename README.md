@@ -5,7 +5,7 @@
 </p>
 
 # Descrição do Projeto
->A objetivo desse projeto é me aprofundar e desenvolver em Flask, framework web em Python, com bastante foco em formulário. O projeto tem como foco usuários adicionarem e visualizarem informações sobre cafeterias, como nome, localização, horários de funcionamento e classificações para café, Wi-Fi e disponibilidade de tomadas. Os dados ficam salvos em um arquivo CSV.
+>A objetivo desse projeto é me aprofundar e desenvolver em Flask, framework web em Python, com bastante foco em formulário. O projeto tem como foco principal usuários adicionarem e visualizarem informações sobre cafeterias, como nome, localização, horários de funcionamento e classificações para café, Wi-Fi e disponibilidade de tomadas. Os dados ficam salvos em um arquivo CSV.
 
 <br/>
 
